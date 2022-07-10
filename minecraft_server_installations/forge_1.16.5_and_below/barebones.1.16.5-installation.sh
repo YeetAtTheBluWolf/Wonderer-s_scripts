@@ -2,6 +2,8 @@
 
 echo 'Installing barebones forge installation for 1.16.5!'
 
+#WARNING: older versions of forge require you to run java 8 it's not backwards compatible with java 11/17/18
+
 #Installing forge
 wget https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.2.35/forge-1.16.5-36.2.35-installer.jar
 
@@ -14,8 +16,6 @@ rm forge-1.16.5-36.2.35-installer.jar
 mkdir mods
 cd mods
 #Put all the mods below here
-
-
 
 #Put all the mods above here
 cd ../

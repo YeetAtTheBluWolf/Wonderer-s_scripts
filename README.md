@@ -6,3 +6,4 @@ Currently there are only two scripts for Ubuntu and I plan to add scripts for ph
 You can use this however you like; you can fork it and even request pull requests.
 
 Warning: Forge is not java backwards compatible, so forge versions running java 8 will not run java 11 or 17 up.
+If you don't want all the programs to default to java 8 when you install manually set it try to specify the java 8 directory instead of java 8 as the primary version
